@@ -1,0 +1,11 @@
+.titulo_ppal {
+    color: black;
+}
+
+.titulo_ppal:hover {
+    color: blue;
+}
+
+.bullet_points_1 {
+    color: rgb(23, 41, 26);
+}
