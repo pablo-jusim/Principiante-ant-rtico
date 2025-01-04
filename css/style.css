@@ -9,3 +9,26 @@
 .bullet_points_1 {
     color: rgb(23, 41, 26);
 }
+
+/* Estilo del contenedor de la sección */
+.section-header {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;  /* Usa flexbox */
+    justify-content: space-between; /* Alinea el título a la izquierda y la flecha a la derecha */
+    align-items: center;
+    background: #e0e0e0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Estilo de la flecha */
+.arrow {
+    font-size: 1.5em;  /* Tamaño de la flecha */
+    transition: transform 0.3s;  /* Suaviza la rotación */
+}
+
+/* Rota la flecha cuando está expandida */
+.arrow.up {
+    transform: rotate(180deg);  /* Gira 180 grados */
+}
