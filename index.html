@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--Esto es un comentario-->
+<!--Página 105-->
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -11,7 +11,13 @@
 
   <body>
     <header>Yendo a hacer ciencia a Antártida: guía para princiantes</header>
-    <nav><a href="./index.html">Principal</a> | <a href="./enlaces.html">Enlaces útiles</a></nav>
+    <nav>
+      <a href="./index.html">Principal</a> |
+      <a href="#QueLlevar">Que llevar</a> |
+      <a href="./enlaces.html" target="_self">Enlaces útiles</a> |
+      <a href="./alojamiento.html">Alojamiento</a> |
+      <a href="./vidaDiaria.html">Vida diaria</a>
+    </nav>
 
     <main>
       <section>
@@ -19,33 +25,26 @@
           <h1 class="titulo_ppal">¡Bienvenidos/as!</h1>
           <p>
             Después de varios intentos, al fin llegué a Antártida. Estoy en
-            <b>Base Carlini</b>. Con el tiempo fui recopilando una lista de
-            cosas que me hubiese gustado saber de antes de venir para prepararme
-            mejor. Ahora las comparto con ustedes para que puedan prepararse
-            para sus campañas. ¡Éxitos!
+            <b>Base Carlini</b>. Antes de viajar me surgieron muchas dudas
+            respecto a como sería todo y qué debería llevar. Con el tiempo, fui
+            aprendiendo como es la vida en la base, que hay y que no hay, etc.
+            Creé esta página para compartir con ustedes, quienes están próximos
+            a cruzar el pasaje de Drake, la información que fui juntando.
           </p>
+          <p>¡Éxitos!</p>
+
           <h5>
             Como se podrán imaginar, este blog está en constante mejora. Por
             ahora es un esbozo de lo que espero que sea.
           </h5>
 
           <figure>
-            <img src="./img/Foto1.jpg" alt="una foto X" />
+            <img src="./img/Foto1.jpg" alt="una foto X" width="500" />
             <figcaption>Imagen liviana aleatoria</figcaption>
           </figure>
         </article>
 
-        <article>
-          <h2>Alojamiento</h2>
-          <p>
-            Los científicos duermen en <b>Casa Nueva</b> o en el
-            <b>Laboratorio Dallman.</b> La mayoría duerme en Casa Nueva, así que
-            arranquemos por ahí.
-          </p>
-          <h4>Casa nueva</h4>
-        </article>
-
-        <article>
+        <article id="QueLlevar">
           <div class="section-header" onclick="toggleSection(this)">
             <h2>Que llevar</h2>
             <span class="arrow">▼</span>
@@ -157,6 +156,15 @@
                 otra cosa. Si quieren consumir, tienen que traer.
               </li>
               <li>
+                <b>Frutos secos.</b> Para las salidas a campo, para un snack
+                entre comidas, siempre vienen bien.
+              </li>
+              <li>
+                <b>Barritas de cereal.</b> En la base solo vi de frutilla. Si
+                quieren otras tienen que traer. También ayudan a no comer
+                galletitas dulces cuando da hambre.
+              </li>
+              <li>
                 <b>Té.</b> En la base hay té negro, boldo y tilo. Si les gusta
                 otra variedad, van a tener que traerla.
               </li>
@@ -260,17 +268,6 @@
             </p>
           </div>
         </article>
-      </section>
-      <section>
-        <h1>Sección de pruebas</h1>
-        <pre>
-  Habia una vez
-        un avion.
-      que jugaba.
-         a ser nada
-      </pre
-        >
-        <p> Estaba una pepa <time datetime="mm-aa-dd">07-09-24</time> a las escondidas</p>
       </section>
     </main>
     <footer>&copy; Derechos re cebados 2025</footer>
