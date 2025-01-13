@@ -32,3 +32,12 @@
 .arrow.up {
     transform: rotate(180deg);  /* Gira 180 grados */
 }
+
+nav, a, header {
+    background: #060f0f;
+    color: rgb(217, 245, 245);
+}
+
+#QueLlevar {
+    background: #94e2e7;
+}
