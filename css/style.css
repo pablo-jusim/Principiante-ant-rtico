@@ -33,8 +33,12 @@
     transform: rotate(180deg);  /* Gira 180 grados */
 }
 
+p {
+    width: 80%;
+}
+
 nav, a, header {
-    background: #060f0f;
+    background: #0400db;
     color: rgb(217, 245, 245);
 }
 
