@@ -1,9 +1,20 @@
+html {
+    background: radial-gradient(ellipse at center, #d2eef5, #abaaeb);
+}
+
 .titulo_ppal {
     color: black;
 }
 
 .titulo_ppal:hover {
     color: blue;
+}
+
+.subtitulo1 {
+    margin-right: 80%;
+    padding: 0px;
+    border: solid;
+    text-align: start;
 }
 
 .bullet_points_1 {
