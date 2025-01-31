@@ -44,13 +44,22 @@ html {
     transform: rotate(180deg);  /* Gira 180 grados */
 }
 
+nav a, nav {
+    background: #0400db;
+    color: rgb(217, 245, 245);
+}
+
 p {
     width: 80%;
 }
 
-nav, a, header {
+header {
     background: #0400db;
     color: rgb(217, 245, 245);
+}
+
+h4 {
+    margin-top: 50px;
 }
 
 #QueLlevar {
