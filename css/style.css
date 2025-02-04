@@ -17,6 +17,15 @@ html {
     text-align: start;
 }
 
+.foto_izq {
+    float: right;
+    margin: 0px 10px;
+}
+
+.cont_img {
+    overflow: auto;
+}
+
 .bullet_points_1 {
     color: rgb(23, 41, 26);
 }
@@ -62,6 +71,15 @@ h4 {
     margin-top: 50px;
 }
 
+figcaption {
+    clear: right;
+}
+
+figure {
+    display: inline-block;
+}
+
 #QueLlevar {
     background: #94e2e7;
 }
+
